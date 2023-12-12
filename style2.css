@@ -1,0 +1,61 @@
+
+body{
+    background-color: #CADBDE;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin: 0 10%;
+}
+h2{
+    margin:5% 0;
+}
+img{
+    border-radius:50%;
+    border: 1px solid black;
+    position:absolute;
+    right:0;
+    top: 0;
+
+}
+#page{
+    position: relative;
+}
+.form>div{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    float: top;
+    display: block;
+    width: 20%;
+}
+.text-review{
+    display: block;
+    margin: 5% auto;
+    border-radius: 15px;
+    padding: 5% 5%;
+}
+#content{
+    width: 90%;
+    margin: 5% auto;
+    padding: 10% 10%;
+    background-color: beige;
+    
+}
+#dropMenu{
+    margin: 5px 5px;
+    padding: 10% 10%;
+    border-radius: 15px;
+}
+#nameOfThePerson{
+    font-weight:bold;
+    text-align: right;
+    display: inline;
+}
+ul{
+    margin: 0 auto;
+    display: inline;
+}
+li{
+list-style-type:none;
+
+}
+
+

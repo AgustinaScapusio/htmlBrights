@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css" />
+    <title>Homework</title>
+</head>
+<body>
+    <div id="content">
+    <h2>Leave your book review</h2>
+    <form class="form">
+        <div >
+            <label for="Name">Name</label>
+            <input class="text-review" name="Name" id="name">
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input class="text-review" type="email" name="email" id="email">
+        </div>
+    
+        <div >
+            <label for="type-of-reviewer">Reviewer: </label>
+            <select class="text-review" id="dropMenu" name="type-of-reviewer" id="type-of-reviewer">
+              <option>Person</option>
+              <option>AI</option>
+            </select>
+        </div>
+    
+        <div >
+            <label for="rating-label">Rating Score</label>
+            <input class="text-review" type="range" max="5"  step="0.5"  value="0">
+        </div>
+        
+        <div >
+          <label id="text-review" for="review-text">Review text</label>
+          
+          <textarea class="text-review" name="review-text" placeholder="Insert your review here"></textarea>
+        </div>
+    </form>
+
+<h3>Table of animals</h3>
+    <table>
+        <tr>
+        <th>Name</th>
+        <th>Top Speed</th>
+        <th>Mammal</th>
+        </tr>
+        <tr>
+            <td>Cat</td>
+            <td>48km/h</td>
+            <td>yes</td>
+        </tr>
+        <tr>
+            <td>Dog</td>
+            <td>50km/h</td>
+            <td>yes</td>
+        </tr>
+        <tr>
+            <td>Dolphin</td>
+            <td>60km/h</td>
+            <td>no</td>
+        </tr>
+        <tr>
+            <td>Bird</td>
+            <td>390km/h</td>
+            <td>no</td>
+        </tr>
+    </table>
+    <div id="page">
+<h2>My homepage</h2>
+<h4 id="nameOfThePerson">Agustina Scapusio</h4>
+<img width="30%" src="IMG-5193.jpg" alt="picture of Agustina">
+
+<p>Argentinian 24 years-old baker who is learning how to code.</p>
+<ul> 
+    <li>
+    Hobbies:
+    </li>
+    <li>Drawing</li>
+    <li>Music</li>
+    <li>Cooking</li>
+    <li>Running</li>
+</ul>
+</div>
+<h4>
+    Quick Quiz
+</h4>
+<p>Do you know Iman?</p>
+<form method="post" action="https://www.toptal.com/developers/postbin/1702373507958-8411138847004">
+<div>
+<label for="radio">Yes</label>
+<input type="radio" name="option" value="yes">
+</div>
+<div>
+<label for="radio">Maybe</label>
+<input type="radio" name="option" value="maybe">
+</div>
+<div>
+<label for="radio">No</label>
+<input type="radio" name="option" value="no">
+</div>
+<div>
+    <label for="comment-text">Review text</label>
+    
+    <textarea name="comment-text" placeholder="Insert your comment here"></textarea>
+</div>
+<button type="submit">Submit</button>
+
+</form>
+</div>
+</body>
+</html>
